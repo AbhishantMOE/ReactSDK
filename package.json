@@ -10,8 +10,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-firebase/app": "^19.0.0",
+    "@react-native-firebase/messaging": "^19.0.0",
     "react": "18.2.0",
-    "react-native": "0.73.5"
+    "react-native": "^0.73.5",
+    "react-native-moengage": "^8.7.1",
+    "react-native-moengage-inbox": "^2.6.1"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

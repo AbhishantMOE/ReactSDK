@@ -12,6 +12,16 @@ import com.facebook.react.defaults.DefaultReactNativeHost
 import com.facebook.react.flipper.ReactNativeFlipper
 import com.facebook.soloader.SoLoader
 
+import com.moengage.core.DataCenter
+import com.moengage.core.LogLevel
+import com.moengage.core.MoEngage
+import com.moengage.core.config.FcmConfig
+import com.moengage.core.config.LogConfig
+import com.moengage.core.config.NotificationConfig
+import com.moengage.react.MoEInitializer
+
+
+
 class MainApplication : Application(), ReactApplication {
 
   override val reactNativeHost: ReactNativeHost =
@@ -20,6 +30,9 @@ class MainApplication : Application(), ReactApplication {
             PackageList(this).packages.apply {
               // Packages that cannot be autolinked yet can be added manually here, for example:
               // add(MyReactNativePackage())
+//              packages.add(
+//                MoengageInboxPackage()
+//              )
             }
 
         override fun getJSMainModuleName(): String = "index"
@@ -41,5 +54,18 @@ class MainApplication : Application(), ReactApplication {
       load()
     }
     ReactNativeFlipper.initializeFlipper(this, reactNativeHost.reactInstanceManager)
+
+
+
+    val moEngage = MoEngage.Builder(this, "OXTAVQZDWWAROL2ESF8FWE8G", DataCenter.DATA_CENTER_1)
+      .configureLogs(LogConfig(
+        LogLevel.VERBOSE,true
+      )).configureNotificationMetaData(
+        NotificationConfig(R.drawable.download, R.drawable.download)
+      ).configureFcm(FcmConfig(false))
+
+    MoEInitializer.initializeDefaultInstance(applicationContext, moEngage)  // different from native android initialization // clients usually initialize it like that of android integration and that causes issues
+
+
   }
 }
