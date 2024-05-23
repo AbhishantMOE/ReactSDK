@@ -63,7 +63,7 @@ class MainApplication : Application(), ReactApplication {
       )).configureNotificationMetaData(
         NotificationConfig(R.drawable.download, R.drawable.download)
       ).configureFcm(FcmConfig(false))
-
+      
     MoEInitializer.initializeDefaultInstance(applicationContext, moEngage)  // different from native android initialization // clients usually initialize it like that of android integration and that causes issues
 
 
