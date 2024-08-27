@@ -76,10 +76,10 @@ const Home = ({}) => {
     return cardsInfo;
   };
 
-  // const getInAppData = async () => {
-  //   let inAppData = await ReactMoE.getSelfHandledInApp();
-  //   return inAppData;
-  // };
+  const getInAppData = () => {
+    let inAppData = ReactMoE.getSelfHandledInApp();
+    return inAppData;
+  };
 
   const getToken = async () => {
     try {
@@ -113,6 +113,8 @@ const Home = ({}) => {
     ReactMoEngageCards.initialize(APP_ID);
     MoEReactInbox.initialize(APP_ID);
 
+    ReactMoE.setUserUniqueID('abhishant');
+
     ReactMoE.setEventListener('pushClicked', notificationPayload => {
       console.log('pushClicked Abhishant', notificationPayload);
       notifyMessage('Hey there');
@@ -135,9 +137,7 @@ const Home = ({}) => {
     const unsubscribe = messaging().onMessage(async remoteMessage => {
       //Alert.alert('A new FCM message arrived!', JSON.stringify(remoteMessage));
       console.log('This is a remote msg', remoteMessage);
-
       // Pass the data payload to the MoEngage SDK
-
       ReactMoE.passFcmPushPayload(remoteMessage.data); // this is working
     });
 
@@ -146,24 +146,26 @@ const Home = ({}) => {
 
   ////////
 
-  // ReactMoE.setEventListener(
-  //   'inAppCampaignSelfHandled',
-  //   (selfHandledPayload: any) => {
-  //     if (selfHandledPayload && Object.keys(selfHandledPayload).length != 0) {
-  //       console.log('inAppCampaignSelfHandled', selfHandledPayload);
-  //       let d = JSON.parse(selfHandledPayload.campaign.payload);
-  //       console.log('===>', d);
+  ReactMoE.setEventListener(
+    'inAppCampaignSelfHandled',
+    (selfHandledPayload: any) => {
+      console.log('Hey');
 
-  //       // Set the payload data in the state variable
-  //       setModalPayload(d);
+      if (selfHandledPayload && Object.keys(selfHandledPayload).length != 0) {
+        console.log('inAppCampaignSelfHandled2', selfHandledPayload);
+        // let d = JSON.parse(selfHandledPayload.campaign.payload);
+        // console.log('===>', d);
 
-  //       // Show the modal
-  //       ReactMoE.selfHandledShown(selfHandledPayload);
+        // Set the payload data in the state variable
+        //setModalPayload(d);
 
-  //       setIsModalVisible(true);
-  //     }
-  //   },
-  // );
+        // Show the modal
+        // ReactMoE.selfHandledShown(selfHandledPayload);
+
+        //setIsModalVisible(true);
+      }
+    },
+  );
 
   return (
     <SafeAreaView>
@@ -191,9 +193,15 @@ const Home = ({}) => {
           name={'Show In App'}
           onPressButton={() => {
             //const inAppData = getInAppData();
-            //ReactMoE.getSelfHandledInApp();
-            ReactMoE.showInApp();
-            //ReactMoE.showNudge();
+            ReactMoE.getSelfHandledInApp();
+            ReactMoE.getSelfHandledInApp();
+
+            // setTimeout(() => {
+            //   ReactMoE.getSelfHandledInApp();
+            // }, 1000);
+
+            //ReactMoE.showInApp();
+            // ReactMoE.showNudge();
             //console.log('this is in app datat,', getInAppData());
 
             //console.log('This is inAPp data', inAppData);

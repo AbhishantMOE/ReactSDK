@@ -1,0 +1,712 @@
+2024-06-20 21:29:28.721  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler submit() : Job with tag INITIALISATION added to queue
+2024-06-20 21:29:28.722  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_CoreController registerProcessLifecycleObserver() : 
+2024-06-20 21:29:28.722  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_InitialisationHandler setUpStorage() :
+2024-06-20 21:29:28.723  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ApplicationLifecycleObserver onCreate() : 
+2024-06-20 21:29:28.723  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ApplicationLifecycleObserver onStart() : 
+2024-06-20 21:29:28.723  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler submit() : Job with tag APP_OPEN added to queue
+2024-06-20 21:29:28.723  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ApplicationLifecycleObserver onResume() : 
+2024-06-20 21:29:28.723  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_CoreController registerActivityLifecycle() : 
+2024-06-20 21:29:28.726  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_InitialisationHandler setUpStorage() :  Storage encryption: saved storageEncryptionState : NON_ENCRYPTED, shouldEncryptStorage: false
+2024-06-20 21:29:28.726  4612-4709  MoEngage                com.theentertainerme.entertainer     V  PushBase_7.0.1_PushHelper createMoEngageChannels() : 
+2024-06-20 21:29:28.726  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler submit() : Job with tag INSTALL_UPDATE_TASK added to queue
+2024-06-20 21:29:28.726  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_InitialisationHandler loadConfigurationFromDisk() 
+2024-06-20 21:29:28.727  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_RemoteConfigHandler loadConfig() : Loading config from Disk.
+2024-06-20 21:29:28.727  4612-4709  MoEngage                com.theentertainerme.entertainer     V  FCM_6.6.0_TokenRegistrationHandler registerForPush() : Will try to register for push
+2024-06-20 21:29:28.728  4612-4709  MoEngage                com.theentertainerme.entertainer     V  InApp_7.1.0_InAppModuleManager initialiseModule() : Initialising InApp module
+2024-06-20 21:29:28.729  4612-4709  MoEngage                com.theentertainerme.entertainer     V  FCM_6.6.0_FcmModuleManager initialiseModule() : Initialising FCM module
+2024-06-20 21:29:28.729  4612-4709  MoEngage                com.theentertainerme.entertainer     V  PushAmp_4.6.0_PushAmpModuleManager initialiseModule() : Initialising Push Amp module
+2024-06-20 21:29:28.729  4612-4612  MoEngage                com.theentertainerme.entertainer     V  FCM_6.6.0_TokenRegistrationHandler processPushToken() : Token: cugtnyUUTmKSFQoVH6MAt8:APA91bGj9sERkJiCvHWMQkXn4aecwe7VZOV-XeldAg7xKp7I3hyNlMC9zijVxFEumQnFSIEaJ-1VS17rBQTXFh-9lbjmILzXF6wk52M3C7sIzbFa3fNVg6MXxVqYf7M8yU3Fms6zNLU-
+2024-06-20 21:29:28.730  4612-4709  MoEngage                com.theentertainerme.entertainer     V  CardsCore_1.6.0_CardModuleManager initialiseModule() : Initialising Cards module
+2024-06-20 21:29:28.731  4612-4709  MoEngage                com.theentertainerme.entertainer     V  RTT_2.6.0_RttModuleManager initialiseModule() : Initialising Rtt module
+2024-06-20 21:29:28.731  4612-4709  MoEngage                com.theentertainerme.entertainer     V  Core_LifecycleManager onAppForeground() : Executed App foreground task
+2024-06-20 21:29:28.734  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_RemoteConfigHandler loadConfig() : Stored Config: {
+                                                                                                        "a_s": "allowed",
+                                                                                                        "i_s": "allowed",
+                                                                                                        "g_s": "allowed",
+                                                                                                        "p_f_s": "allowed",
+                                                                                                        "s_log": "blocked",
+                                                                                                        "le_s": "blocked",
+                                                                                                        "d_t": "allowed",
+                                                                                                        "c_s": "allowed",
+                                                                                                        "in_s": "allowed",
+                                                                                                        "e_e_t": "blocked",
+                                                                                                        "mi_p_s": "allowed",
+                                                                                                        "s_s_s": "blocked",
+                                                                                                        "in_st_s": "allowed",
+                                                                                                        "gzip": "blocked",
+                                                                                                        "b_e": [
+                                                                                                            "MOE_APP_EXIT"
+                                                                                                        ],
+                                                                                                        "pt_w_o": [
+                                                                                                            "Google",
+                                                                                                            "OnePlus",
+                                                                                                            "Samsung",
+                                                                                                            "Oppo",
+                                                                                                            "Vivo",
+                                                                                                            "Motorola"
+                                                                                                        ],
+                                                                                                        "f_e": [],
+                                                                                                        "b_uid_r": [
+                                                                                                            "null"
+                                                                                                        ],
+                                                                                                        "ap_st": "allowed",
+                                                                                                        "w_e": [
+                                                                                                            "MOE_PUSH_PERMISSION_STATE_ALLOWED",
+                                                                                                            "MOE_PUSH_PERMISSION_STATE_BLOCKED"
+                                                                                                        ],
+                                                                                                        "r_c_s_i": 604800,
+                                                                                                        "m_s_t": 10800,
+                                                                                                        "d_s_r_i": 1800,
+                                                                                                        "cid_ex": 2419200000,
+                                                                                                        "mi_app_key": "",
+                                                                                                        "mi_app_id": "",
+                                                                                                        "dt_s_t": 10800,
+                                                                                                        "le_tkn": "",
+                                                                                                        "d_t_w_e": [],
+                                                                                                        "u_a_c_t": 43200,
+                                                                                                        "e_b_c": 30,
+                                                                                                        "p_f_t": 60,
+                                                                                                        "s_i_d": 1800,
+                                                                                                        "src_ext": [],
+                                                                                                        "log_level": ""
+                                                                                                    }
+2024-06-20 21:29:28.734  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_InitialisationHandler syncRemoteConfigIfRequired(): will try to sync config if required
+2024-06-20 21:29:28.734  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_CoreController syncConfig() : 
+2024-06-20 21:29:28.734  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_InitialisationHandler onSdkInitialised(): will notify listeners
+2024-06-20 21:29:28.735  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_MoEngageDeviceIdHandler getDeviceId(): will get the device id.
+2024-06-20 21:29:28.735  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler submit() : Job with tag TAG_GET_DEVICE_ID added to queue
+2024-06-20 21:29:28.735  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag INITIALISATION removed from the queue
+2024-06-20 21:29:28.735  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ApplicationLifecycleHandler onAppOpen() : 
+2024-06-20 21:29:28.735  4612-4612  MoEngage                com.theentertainerme.entertainer     V  Core_InitialisationHandler onSdkInitialised() : Notifying initialisation listeners
+2024-06-20 21:29:28.735  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.735  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_CoreController syncConfig() : 
+2024-06-20 21:29:28.736  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler submit() : Job with tag TRACK_EVENT added to queue
+2024-06-20 21:29:28.736  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Geofence_3.4.0_GeofenceController onAppOpen() : 
+2024-06-20 21:29:28.738  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler execute() : Job with tag FETCH_IN_APP_META_TASK added to queue
+2024-06-20 21:29:28.738  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler execute() : Job with tag PUSH_AMP_SERVER_SYNC added to queue
+2024-06-20 21:29:28.739  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_RttHandleImpl onAppOpen() : 
+2024-06-20 21:29:28.739  4612-4926  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK PushAmp_4.6.0_CampaignHandler fetchAndShowMessages() : 
+2024-06-20 21:29:28.739  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.0.0_AppOpenJob onAppOpen() : Processing app open
+2024-06-20 21:29:28.739  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.1.0_InAppController syncMeta() : 
+2024-06-20 21:29:28.739  4612-4926  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:28.740  4612-4926  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.740  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler execute() : Job with tag RTT_CAMPAIGN_SYNC added to queue
+2024-06-20 21:29:28.740  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK CardsCore_1.6.0_CardHandlerImpl onAppOpen() : 
+2024-06-20 21:29:28.740  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK CardsCore_1.6.0_CardController onAppOpen() : 
+2024-06-20 21:29:28.741  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK CardsCore_1.6.0_CardController syncCards() : Will attempt to sync cards, sync type: APP_OPEN
+2024-06-20 21:29:28.741  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:28.741  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler execute() : Job with tag CARDS_SYNC_TASK added to queue
+2024-06-20 21:29:28.741  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.0.0_InAppRepository fetchInAppCampaignMeta() : Fetching in-app campaign meta
+2024-06-20 21:29:28.741  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.741  4612-4926  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:28.741  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:28.741  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.741  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.0.0_InAppRepository isModuleEnabled() : true
+2024-06-20 21:29:28.742  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_RttRepository syncCampaigns() : Will sync campaigns
+2024-06-20 21:29:28.742  4612-4926  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:28.742  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:28.742  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.742  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK PushBase_7.0.0_PermissionHandler checkNotificationPermissionState(): 
+2024-06-20 21:29:28.742  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:28.742  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK CardsCore_1.6.0_CardRepository isModuleEnabled() : isEnabled? true
+2024-06-20 21:29:28.742  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK PushBase_7.0.0_PermissionHandler updatePermissionStateIfRequired(): 
+2024-06-20 21:29:28.743  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK CardsCore_1.6.0_CardRepository syncCards() : Will try to sync cards, type: APP_OPEN
+2024-06-20 21:29:28.743  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:28.743  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: moe_push_opted
+2024-06-20 21:29:28.743  4612-4926  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:28.743  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Geofence_3.4.0_GeofenceController onAppOpen() : Location fetch complete
+2024-06-20 21:29:28.743  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK CardsCore_1.6.0_CardRepository syncCards() : Last Sync Time: 1718898963
+2024-06-20 21:29:28.743  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Geofence_3.4.0_GeofenceController onAppOpen() : Location: GeoLocation(latitude=12.9334288, longitude=77.6124633)
+2024-06-20 21:29:28.744  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK CardsCore_1.6.0_CardRepository syncCards() : Sync Interval: SyncInterval(appOpen=2700, appInbox=300, pullToRefresh=5, userActivity=0)
+2024-06-20 21:29:28.744  4612-4926  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:28.744  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler execute() : Job with tag GEOFENCE_FETCH added to queue
+2024-06-20 21:29:28.744  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK PushBase_7.0.0_PermissionHandler updatePermissionStateIfRequired(): currentState: true, deviceAttribute: DeviceAttribute(name='moe_push_opted', value='true')
+2024-06-20 21:29:28.744  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK CardsCore_1.6.0_CardRepository syncCards() : Syncing Cards.
+2024-06-20 21:29:28.744  4612-4921  MoEngage                com.theentertainerme.entertainer     V  PushBase_7.0.1_PushHelper createMoEngageChannels() : 
+2024-06-20 21:29:28.744  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:28.745  4612-4926  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK PushAmp_4.6.0_RemoteRepository fetchCampaignsFromServer() : Will fetch campaigns from server.
+2024-06-20 21:29:28.745  4612-4929  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:28.745  4612-4929  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.746  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl removeExpiredData() : Deleting expired data
+2024-06-20 21:29:28.746  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_GzipInterceptor /v1/getAndroidInboxMessages POST intercept(): Adding Gzip Headers to the Request
+2024-06-20 21:29:28.746  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:28.746  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/getAndroidInboxMessages POST intercept(): Will try server call 
+2024-06-20 21:29:28.746  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:28.746  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/getAndroidInboxMessages POST intercept(): Request url: https://sdk-02.moengage.com/v1/getAndroidInboxMessages
+2024-06-20 21:29:28.746  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/getAndroidInboxMessages POST intercept(): Connection opened: 1718899168746
+2024-06-20 21:29:28.747  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:28.747  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:28.748  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_GzipInterceptor /v1/sdk-trigger/sync POST intercept(): Adding Gzip Headers to the Request
+2024-06-20 21:29:28.748  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:28.748  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/getAndroidInboxMessages POST addHeaders() MOE-APPKEY : K9MR92RXN7AY1921E1COXDAK
+2024-06-20 21:29:28.748  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:28.748  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST intercept(): Will try server call 
+2024-06-20 21:29:28.748  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/getAndroidInboxMessages POST addHeaders() Accept-Encoding : gzip
+2024-06-20 21:29:28.749  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:28.749  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:28.749  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_GzipInterceptor /v1/cards/get POST intercept(): Adding Gzip Headers to the Request
+2024-06-20 21:29:28.749  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/cards/get POST intercept(): Will try server call 
+2024-06-20 21:29:28.750  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:28.750  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/cards/get POST intercept(): Request url: https://sdk-02.moengage.com/v1/cards/get
+2024-06-20 21:29:28.750  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/cards/get POST intercept(): Connection opened: 1718899168750
+2024-06-20 21:29:28.750  4612-4929  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:28.750  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST intercept(): Request url: https://sdk-02.moengage.com/v1/sdk-trigger/sync
+2024-06-20 21:29:28.750  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST intercept(): Connection opened: 1718899168750
+2024-06-20 21:29:28.750  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_GzipInterceptor /v3/campaigns/inapp/live POST intercept(): Adding Gzip Headers to the Request
+2024-06-20 21:29:28.751  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST intercept(): Will try server call 
+2024-06-20 21:29:28.751  4612-4929  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:28.751  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST intercept(): Request url: https://sdk-02.moengage.com/v3/campaigns/inapp/live?unique_id=4830d43a-12ce-4f74-9542-d9b13e1bf7d2&sdk_ver=121001&os=ANDROID&device_type=MOBILE&inapp_ver=7.0.0&push_opt_in_status=true
+2024-06-20 21:29:28.751  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST intercept(): Connection opened: 1718899168751
+2024-06-20 21:29:28.751  4612-4929  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:28.751  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/cards/get POST addHeaders() MOE-APPKEY : K9MR92RXN7AY1921E1COXDAK
+2024-06-20 21:29:28.751  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/cards/get POST addHeaders() Accept-Encoding : gzip
+2024-06-20 21:29:28.752  4612-4929  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:28.752  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST addHeaders() MOE-APPKEY : K9MR92RXN7AY1921E1COXDAK
+2024-06-20 21:29:28.752  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_GzipInterceptor /v1/geoFences POST intercept(): Adding Gzip Headers to the Request
+2024-06-20 21:29:28.752  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST addHeaders() MOE-APPKEY : K9MR92RXN7AY1921E1COXDAK
+2024-06-20 21:29:28.752  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST intercept(): Will try server call 
+2024-06-20 21:29:28.753  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST intercept(): Request url: https://sdk-02.moengage.com/v1/geoFences
+2024-06-20 21:29:28.753  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST addHeaders() Accept-Encoding : gzip
+2024-06-20 21:29:28.753  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST intercept(): Connection opened: 1718899168753
+2024-06-20 21:29:28.753  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST addHeaders() Accept-Encoding : gzip
+2024-06-20 21:29:28.756  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST addHeaders() MOE-APPKEY : K9MR92RXN7AY1921E1COXDAK
+2024-06-20 21:29:28.756  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST addHeaders() Accept-Encoding : gzip
+2024-06-20 21:29:28.756  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler submit() : Job with tag TRACK_DEVICE_ATTRIBUTE added to queue
+2024-06-20 21:29:28.757  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ScreenNameTrackingHelper trackScreenNames() : Tracking Screen Names 
+2024-06-20 21:29:28.761  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag APP_OPEN removed from the queue
+2024-06-20 21:29:28.761  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:28.761  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.761  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:28.761  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.761  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_DataTrackingHandler trackInstallOrUpdate() : Status: INSTALL
+2024-06-20 21:29:28.761  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.761  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_DataTrackingHandler trackInstall() : Install is already tracked will not be tracked again.
+2024-06-20 21:29:28.762  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag INSTALL_UPDATE_TASK removed from the queue
+2024-06-20 21:29:28.762  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:28.762  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.762  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK FCM_6.6.0_FcmController processToken() : Will try to process push token. Token:cugtnyUUTmKSFQoVH6MAt8:APA91bGj9sERkJiCvHWMQkXn4aecwe7VZOV-XeldAg7xKp7I3hyNlMC9zijVxFEumQnFSIEaJ-1VS17rBQTXFh-9lbjmILzXF6wk52M3C7sIzbFa3fNVg6MXxVqYf7M8yU3Fms6zNLU- registered by: MoE
+2024-06-20 21:29:28.762  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK FCM_6.6.0_FcmController processToken() oldId: = cugtnyUUTmKSFQoVH6MAt8:APA91bGj9sERkJiCvHWMQkXn4aecwe7VZOV-XeldAg7xKp7I3hyNlMC9zijVxFEumQnFSIEaJ-1VS17rBQTXFh-9lbjmILzXF6wk52M3C7sIzbFa3fNVg6MXxVqYf7M8yU3Fms6zNLU- token = cugtnyUUTmKSFQoVH6MAt8:APA91bGj9sERkJiCvHWMQkXn4aecwe7VZOV-XeldAg7xKp7I3hyNlMC9zijVxFEumQnFSIEaJ-1VS17rBQTXFh-9lbjmILzXF6wk52M3C7sIzbFa3fNVg6MXxVqYf7M8yU3Fms6zNLU---updating[true/false]: false
+2024-06-20 21:29:28.762  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag TAG_GET_DEVICE_ID removed from the queue
+2024-06-20 21:29:28.762  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_EventHandler trackEvent() : Event{name='EVENT_ACTION_ACTIVITY_START', attributes={"EVENT_ATTRS":"{}","EVENT_G_TIME":"1718899168735","EVENT_L_TIME":"20:6:2024:21:29:28","EVENT_ACTION":"EVENT_ACTION_ACTIVITY_START"}, isInteractiveEvent=true}
+2024-06-20 21:29:28.762  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:28.762  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.762  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.1.0_InAppController showTriggerInAppIfPossible() : Event: EVENT_ACTION_ACTIVITY_START
+2024-06-20 21:29:28.763  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.1.0_InAppController showTriggerInAppIfPossible() : InApp meta not synced, cannot process trigger event now. Will wait for sync to finish.
+2024-06-20 21:29:28.763  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_AnalyticsHandler onEventTracked() : Will update last interaction time if required. Datapoint: {"EVENT_ATTRS":"{}","EVENT_G_TIME":"1718899168735","EVENT_L_TIME":"20:6:2024:21:29:28","EVENT_ACTION":"EVENT_ACTION_ACTIVITY_START"}
+2024-06-20 21:29:28.763  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.763  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_AnalyticsHandler onEventTracked() : App is in foreground, return
+2024-06-20 21:29:28.763  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_RttHandleImpl showTrigger() : 
+2024-06-20 21:29:28.763  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler execute() : Job with tag RTT_SHOW_RTT added to queue
+2024-06-20 21:29:28.764  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:28.764  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.764  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl addEvent() Event 
+                                                                                                    : {
+                                                                                                        "EVENT_ATTRS": "{}",
+                                                                                                        "EVENT_G_TIME": "1718899168735",
+                                                                                                        "EVENT_L_TIME": "20:6:2024:21:29:28",
+                                                                                                        "EVENT_ACTION": "EVENT_ACTION_ACTIVITY_START"
+                                                                                                    }
+2024-06-20 21:29:28.765  4612-4935  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_EventProcessor processEvent() : event: EVENT_ACTION_ACTIVITY_START
+2024-06-20 21:29:28.765  4612-4935  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_EventProcessor processEvent() : Trigger Events: []
+2024-06-20 21:29:28.765  4612-4935  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag RTT_SHOW_RTT removed from the queue
+2024-06-20 21:29:28.766  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_EventHandler trackEvent() : Cache counter 1
+2024-06-20 21:29:28.766  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag TRACK_EVENT removed from the queue
+2024-06-20 21:29:28.766  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_DeviceAttributeHandler trackDeviceAttribute() : Attribute: Attribute(name='deviceType', value=MOBILE, attributeType=DEVICE)
+2024-06-20 21:29:28.766  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:28.766  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:28.766  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: deviceType
+2024-06-20 21:29:28.767  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_DeviceAttributeHandler trackDeviceAttribute() : Device attribute already sent once will not be sent again.
+2024-06-20 21:29:28.767  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag TRACK_DEVICE_ATTRIBUTE removed from the queue
+2024-06-20 21:29:29.923  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler submit() : Job with tag TRACK_EVENT added to queue
+2024-06-20 21:29:29.923  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_EventHandler trackEvent() : Event{name='Home Page View', attributes={"EVENT_ATTRS_CUST":"{\"timestamp\":[{\"Timestamp\":1718899169912}]}","EVENT_G_TIME":"1718899169923","EVENT_L_TIME":"20:6:2024:21:29:29","EVENT_ACTION":"Home Page View"}, isInteractiveEvent=true}
+2024-06-20 21:29:29.924  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:29.924  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:29.924  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.1.0_InAppController showTriggerInAppIfPossible() : Event: Home Page View
+2024-06-20 21:29:29.924  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.1.0_InAppController showTriggerInAppIfPossible() : InApp meta not synced, cannot process trigger event now. Will wait for sync to finish.
+2024-06-20 21:29:29.924  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_AnalyticsHandler onEventTracked() : Will update last interaction time if required. Datapoint: {"EVENT_ATTRS_CUST":"{\"timestamp\":[{\"Timestamp\":1718899169912}]}","EVENT_G_TIME":"1718899169923","EVENT_L_TIME":"20:6:2024:21:29:29","EVENT_ACTION":"Home Page View"}
+2024-06-20 21:29:29.924  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler execute() : Job with tag GEOFENCE_ENABLE added to queue
+2024-06-20 21:29:29.924  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:29.924  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_AnalyticsHandler onEventTracked() : App is in foreground, return
+2024-06-20 21:29:29.924  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_RttHandleImpl showTrigger() : 
+2024-06-20 21:29:29.924  4612-4935  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag GEOFENCE_ENABLE removed from the queue
+2024-06-20 21:29:29.924  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler execute() : Job with tag RTT_SHOW_RTT added to queue
+2024-06-20 21:29:29.925  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:29.925  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:29.925  4612-4935  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_EventProcessor processEvent() : event: Home Page View
+2024-06-20 21:29:29.925  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl addEvent() Event 
+                                                                                                    : {
+                                                                                                        "EVENT_ATTRS_CUST": "{\"timestamp\":[{\"Timestamp\":1718899169912}]}",
+                                                                                                        "EVENT_G_TIME": "1718899169923",
+                                                                                                        "EVENT_L_TIME": "20:6:2024:21:29:29",
+                                                                                                        "EVENT_ACTION": "Home Page View"
+                                                                                                    }
+2024-06-20 21:29:29.926  4612-4935  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_EventProcessor processEvent() : Trigger Events: []
+2024-06-20 21:29:29.926  4612-4935  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag RTT_SHOW_RTT removed from the queue
+2024-06-20 21:29:29.927  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_EventHandler trackEvent() : Cache counter 2
+2024-06-20 21:29:29.927  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag TRACK_EVENT removed from the queue
+2024-06-20 21:29:31.023  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST addBody(): Request Body: 
+                                                                                                     {
+                                                                                                        "query_params": {
+                                                                                                            "os": "ANDROID",
+                                                                                                            "app_id": "K9MR92RXN7AY1921E1COXDAK",
+                                                                                                            "sdk_ver": "121001",
+                                                                                                            "unique_id": "4830d43a-12ce-4f74-9542-d9b13e1bf7d2",
+                                                                                                            "device_ts": "1718899168741",
+                                                                                                            "device_tz_offset": "19800000",
+                                                                                                            "app_ver": "99991",
+                                                                                                            "app_version_name": "8.20.32",
+                                                                                                            "moe_gaid": "698a1216-d126-48eb-8265-91723c582a38",
+                                                                                                            "moe_push_ser": "FCM"
+                                                                                                        }
+                                                                                                    }
+2024-06-20 21:29:31.029  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/getAndroidInboxMessages POST addBody(): Request Body: 
+                                                                                                     {
+                                                                                                        "query_params": {
+                                                                                                            "os": "ANDROID",
+                                                                                                            "app_id": "K9MR92RXN7AY1921E1COXDAK",
+                                                                                                            "sdk_ver": "121001",
+                                                                                                            "unique_id": "4830d43a-12ce-4f74-9542-d9b13e1bf7d2",
+                                                                                                            "device_ts": "1718899168740",
+                                                                                                            "device_tz_offset": "19800000",
+                                                                                                            "app_ver": "99991",
+                                                                                                            "app_version_name": "8.20.32",
+                                                                                                            "moe_gaid": "698a1216-d126-48eb-8265-91723c582a38",
+                                                                                                            "moe_push_ser": "FCM",
+                                                                                                            "on_app_open": true,
+                                                                                                            "model": "Redmi Note 8 Pro",
+                                                                                                            "last_updated": "1718898956447"
+                                                                                                        }
+                                                                                                    }
+2024-06-20 21:29:31.030  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/cards/get POST addBody(): Request Body: 
+                                                                                                     {
+                                                                                                        "last_updated_time": 1718898963,
+                                                                                                        "prev_sync_card_ids": [],
+                                                                                                        "request_id": "1718899168749-d0af80f8-c8cc-41ff-b4b8-0cd5b5cd5781",
+                                                                                                        "platforms": [
+                                                                                                            "android"
+                                                                                                        ],
+                                                                                                        "unique_id": "4830d43a-12ce-4f74-9542-d9b13e1bf7d2",
+                                                                                                        "query_params": {
+                                                                                                            "os": "ANDROID",
+                                                                                                            "app_id": "K9MR92RXN7AY1921E1COXDAK",
+                                                                                                            "sdk_ver": "121001",
+                                                                                                            "unique_id": "4830d43a-12ce-4f74-9542-d9b13e1bf7d2",
+                                                                                                            "device_ts": "1718899168745",
+                                                                                                            "device_tz_offset": "19800000",
+                                                                                                            "app_ver": "99991",
+                                                                                                            "app_version_name": "8.20.32",
+                                                                                                            "moe_gaid": "698a1216-d126-48eb-8265-91723c582a38",
+                                                                                                            "moe_push_ser": "FCM"
+                                                                                                        }
+                                                                                                    }
+2024-06-20 21:29:31.031  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST addBody(): Request Body: 
+                                                                                                     {
+                                                                                                        "last_sync_time": 1718898956541,
+                                                                                                        "campaign_ids": [
+                                                                                                            "666943afcc9be3ac80f8a0c0",
+                                                                                                            "666fc3f91087602647cdd019"
+                                                                                                        ],
+                                                                                                        "query_params": {
+                                                                                                            "os": "ANDROID",
+                                                                                                            "app_id": "K9MR92RXN7AY1921E1COXDAK",
+                                                                                                            "sdk_ver": "121001",
+                                                                                                            "unique_id": "4830d43a-12ce-4f74-9542-d9b13e1bf7d2",
+                                                                                                            "device_ts": "1718899168742",
+                                                                                                            "device_tz_offset": "19800000",
+                                                                                                            "app_ver": "99991",
+                                                                                                            "app_version_name": "8.20.32",
+                                                                                                            "moe_gaid": "698a1216-d126-48eb-8265-91723c582a38",
+                                                                                                            "moe_push_ser": "FCM",
+                                                                                                            "device_tz": "Asia\/Kolkata"
+                                                                                                        }
+                                                                                                    }
+2024-06-20 21:29:31.032  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST addBody(): Request Body: 
+                                                                                                     {
+                                                                                                        "query_params": {
+                                                                                                            "os": "ANDROID",
+                                                                                                            "app_id": "K9MR92RXN7AY1921E1COXDAK",
+                                                                                                            "sdk_ver": "121001",
+                                                                                                            "unique_id": "4830d43a-12ce-4f74-9542-d9b13e1bf7d2",
+                                                                                                            "device_ts": "1718899168745",
+                                                                                                            "device_tz_offset": "19800000",
+                                                                                                            "app_ver": "99991",
+                                                                                                            "app_version_name": "8.20.32",
+                                                                                                            "moe_gaid": "698a1216-d126-48eb-8265-91723c582a38",
+                                                                                                            "moe_push_ser": "FCM",
+                                                                                                            "lat": "12.9334288",
+                                                                                                            "lng": "77.6124633",
+                                                                                                            "isForeground": true
+                                                                                                        }
+                                                                                                    }
+2024-06-20 21:29:31.308  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST getInputStream(): Decoding Request Body With Gzip
+2024-06-20 21:29:31.310  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST getResponse(): Code: 200 body: 
+                                                                                                     {
+                                                                                                        "fencesInfo": [
+                                                                                                            {
+                                                                                                                "geoId": "666acb93212dde957fdbcdbd",
+                                                                                                                "lat": 12.933405500000015,
+                                                                                                                "lng": 77.61251309999999,
+                                                                                                                "distance": 20,
+                                                                                                                "responsiveness_time": 300000,
+                                                                                                                "cid": "666ac6eb657382ff6c757c96",
+                                                                                                                "transitionType": "enter"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "geoId": "666adcfec8a38561b967037c",
+                                                                                                                "lat": 12.933405500000015,
+                                                                                                                "lng": 77.61251309999999,
+                                                                                                                "distance": 20,
+                                                                                                                "responsiveness_time": 60000,
+                                                                                                                "cid": "666acfcad91c3d0d154c4df3",
+                                                                                                                "transitionType": "exit"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "geoId": "663bb9b1a19314b1b09e0d2c",
+                                                                                                                "lat": 12.906496899999992,
+                                                                                                                "lng": 77.6097508,
+                                                                                                                "distance": 1000,
+                                                                                                                "responsiveness_time": 300000,
+                                                                                                                "cid": "663bb9b1a19314b1b09e0d2a",
+                                                                                                                "transitionType": "dwell",
+                                                                                                                "ldelay": "1800000"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "result": "OK"
+                                                                                                    }
+2024-06-20 21:29:31.310  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST getResponse(): Connection Response stream read complete: 1718899171310)}
+2024-06-20 21:29:31.310  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST intercept(): Connection disconnected: 1718899171310 milliseconds
+2024-06-20 21:29:31.310  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/cards/get POST getResponse(): Code: 200 body: 
+                                                                                                     {
+                                                                                                        "status": true,
+                                                                                                        "request_id": "1718899168749-d0af80f8-c8cc-41ff-b4b8-0cd5b5cd5781",
+                                                                                                        "data": {
+                                                                                                            "show_all_tab": true,
+                                                                                                            "sync_intervals": {
+                                                                                                                "app_open": 2700,
+                                                                                                                "app_inbox": 300,
+                                                                                                                "pull_to_refresh": 5,
+                                                                                                                "user_activity": 0
+                                                                                                            },
+                                                                                                            "card_categories": [
+                                                                                                                "All Categories"
+                                                                                                            ],
+                                                                                                            "deleted_card_ids": [],
+                                                                                                            "cards": []
+                                                                                                        }
+                                                                                                    }
+2024-06-20 21:29:31.310  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/cards/get POST getResponse(): Connection Response stream read complete: 1718899171310)}
+2024-06-20 21:29:31.311  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST intercept(): Connect to disconnect time: 2557 milliseconds
+2024-06-20 21:29:31.311  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/cards/get POST intercept(): Connection disconnected: 1718899171311 milliseconds
+2024-06-20 21:29:31.311  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/cards/get POST intercept(): Connect to disconnect time: 2561 milliseconds
+2024-06-20 21:29:31.311  4612-4928  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/cards/get POST intercept(): Connection Stream read to disconnected time: 0 milliseconds
+2024-06-20 21:29:31.314  4612-4929  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFences POST intercept(): Connection Stream read to disconnected time: 0 milliseconds
+2024-06-20 21:29:31.314  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST getInputStream(): Decoding Request Body With Gzip
+2024-06-20 21:29:31.316  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST getResponse(): Code: 200 body: 
+                                                                                                     {
+                                                                                                        "campaigns": [],
+                                                                                                        "min_delay_btw_inapps": 60,
+                                                                                                        "sync_interval": 900
+                                                                                                    }
+2024-06-20 21:29:31.316  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST getResponse(): Connection Response stream read complete: 1718899171316)}
+2024-06-20 21:29:31.316  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST intercept(): Connection disconnected: 1718899171316 milliseconds
+2024-06-20 21:29:31.316  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST intercept(): Connect to disconnect time: 2565 milliseconds
+2024-06-20 21:29:31.316  4612-4925  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v3/campaigns/inapp/live POST intercept(): Connection Stream read to disconnected time: 0 milliseconds
+2024-06-20 21:29:31.317  4612-4929  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Geofence_3.4.0_GeofenceController fetchAndUpdateFences() : Campaigns: [GeoCampaign(transitionType=1, location=GeoLocation(latitude=12.933405500000015, longitude=77.61251309999999), radius=20.0, expiryDuration=-1, loiteringDelay=-1, responsiveness=300000, geoId='666acb93212dde957fdbcdbd', campaignId='666ac6eb657382ff6c757c96', requestId='K9MR92RXN7AY1921E1COXDAK_666acb93212dde957fdbcdbd'), GeoCampaign(transitionType=2, location=GeoLocation(latitude=12.933405500000015, longitude=77.61251309999999), radius=20.0, expiryDuration=-1, loiteringDelay=-1, responsiveness=60000, geoId='666adcfec8a38561b967037c', campaignId='666acfcad91c3d0d154c4df3', requestId='K9MR92RXN7AY1921E1COXDAK_666adcfec8a38561b967037c'), GeoCampaign(transitionType=4, location=GeoLocation(latitude=12.906496899999992, longitude=77.6097508), radius=1000.0, expiryDuration=-1, loiteringDelay=1800000, responsiveness=300000, geoId='663bb9b1a19314b1b09e0d2c', campaignId='663bb9b1a19314b1b09e0d2a', requestId='K9MR92RXN7AY1921E1COXDAK_663bb9b1a19314b1b09e0d2c')]
+2024-06-20 21:29:31.319  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.0.0_InAppRepository fetchInAppCampaignMeta() : Sync Interval 900
+2024-06-20 21:29:31.320  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/getAndroidInboxMessages POST getResponse(): Code: 200 body: 
+                                                                                                     {}
+2024-06-20 21:29:31.320  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/getAndroidInboxMessages POST getResponse(): Connection Response stream read complete: 1718899171320)}
+2024-06-20 21:29:31.320  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.0.0_InAppRepository fetchInAppCampaignMeta() : Global Delay 60
+2024-06-20 21:29:31.320  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/getAndroidInboxMessages POST intercept(): Connection disconnected: 1718899171320 milliseconds
+2024-06-20 21:29:31.320  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/getAndroidInboxMessages POST intercept(): Connect to disconnect time: 2574 milliseconds
+2024-06-20 21:29:31.320  4612-4926  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/getAndroidInboxMessages POST intercept(): Connection Stream read to disconnected time: 0 milliseconds
+2024-06-20 21:29:31.321  4612-4926  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK PushAmp_4.6.0_CampaignHandler showCampaigns() : 
+2024-06-20 21:29:31.321  4612-4926  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag PUSH_AMP_SERVER_SYNC removed from the queue
+2024-06-20 21:29:31.323  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.0.0_LocalRepositoryImpl deleteExpiredCampaigns() : 
+2024-06-20 21:29:31.324  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK CardsCore_1.6.0_LocalRepositoryImpl storeCategories() : ["All Categories"]
+2024-06-20 21:29:31.325  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK null createBaseFolderIfRequired() : Creating base folder
+2024-06-20 21:29:31.330  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.0.0_InAppRepository updateCache() : Updating cache
+2024-06-20 21:29:31.337  4612-4928  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag CARDS_SYNC_TASK removed from the queue
+2024-06-20 21:29:31.342  4612-4929  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag GEOFENCE_FETCH removed from the queue
+2024-06-20 21:29:31.343  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST getInputStream(): Decoding Request Body With Gzip
+2024-06-20 21:29:31.345  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST getResponse(): Code: 200 body: 
+                                                                                                     {
+                                                                                                        "min_delay_across_campaigns": 0,
+                                                                                                        "dnd_start_time": 0,
+                                                                                                        "dnd_end_time": 0,
+                                                                                                        "campaigns": [],
+                                                                                                        "user_not_found": false
+                                                                                                    }
+2024-06-20 21:29:31.345  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST getResponse(): Connection Response stream read complete: 1718899171345)}
+2024-06-20 21:29:31.345  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST intercept(): Connection disconnected: 1718899171345 milliseconds
+2024-06-20 21:29:31.345  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST intercept(): Connect to disconnect time: 2595 milliseconds
+2024-06-20 21:29:31.346  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/sdk-trigger/sync POST intercept(): Connection Stream read to disconnected time: 0 milliseconds
+2024-06-20 21:29:31.346  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_ResponseParser parseSyncResponse() : Parsing response
+2024-06-20 21:29:31.348  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.1.0_InAppController onSyncSuccess() : 
+2024-06-20 21:29:31.348  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.1.0_InAppController showTriggerInAppIfPossible() : Event: EVENT_ACTION_ACTIVITY_START
+2024-06-20 21:29:31.348  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.1.0_InAppController showTriggerInAppIfPossible() : Event: Home Page View
+2024-06-20 21:29:31.348  4612-4925  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag FETCH_IN_APP_META_TASK removed from the queue
+2024-06-20 21:29:31.351  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_LocalRepositoryImpl deleteExpiredCampaigns() : Deleted 0 campaigns
+2024-06-20 21:29:31.353  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_RttRepository syncCampaigns() : Trigger Events: [MOE_APP_OPENED]
+2024-06-20 21:29:31.353  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag RTT_CAMPAIGN_SYNC removed from the queue
+2024-06-20 21:29:31.378  4612-4612  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Geofence_3.4.0_GeofenceController setGeofence() : Fences set
+2024-06-20 21:29:31.394  4612-4612  MoEngage                com.theentertainerme.entertainer     V  Geofence_3.4.0_GeoFenceBroadcastReceiver onReceive() : Geofence callback received.
+2024-06-20 21:29:31.428  4612-4971  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Geofence_3.4.0_GeofenceController onGeofenceHit() : 
+2024-06-20 21:29:31.431  4612-4971  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Geofence_3.4.0_GeofenceController onGeofenceHit() : Processing fence: Geofence[CIRCLE id:K9MR92RXN7AY1921E1COXDAK_666acb93212dde957fdbcdbd transitions:1 12.933406, 77.612513 80m, resp=300s, dwell=-1ms, @-1]
+2024-06-20 21:29:31.432  4612-4971  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler submit() : Job with tag TRACK_EVENT added to queue
+2024-06-20 21:29:31.433  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_EventHandler trackEvent() : Event{name='MOE_GEOFENCE_HIT', attributes={"EVENT_ATTRS":"{\"campaign_id\":\"666ac6eb657382ff6c757c96\",\"transition_type\":\"enter\",\"geo_id\":\"666acb93212dde957fdbcdbd\"}","EVENT_ATTRS_CUST":"{\"location\":[{\"trigger_location\":\"12.9334288,77.6124633\"}]}","EVENT_G_TIME":"1718899171432","EVENT_L_TIME":"20:6:2024:21:29:31","N_I_E":1,"EVENT_ACTION":"MOE_GEOFENCE_HIT"}, isInteractiveEvent=false}
+2024-06-20 21:29:31.433  4612-4971  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:31.433  4612-4971  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:31.433  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:31.433  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:31.433  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK InApp_7.1.0_InAppController showTriggerInAppIfPossible() : Event: MOE_GEOFENCE_HIT
+2024-06-20 21:29:31.434  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_AnalyticsHandler onEventTracked() : Will update last interaction time if required. Datapoint: {"EVENT_ATTRS":"{\"campaign_id\":\"666ac6eb657382ff6c757c96\",\"transition_type\":\"enter\",\"geo_id\":\"666acb93212dde957fdbcdbd\"}","EVENT_ATTRS_CUST":"{\"location\":[{\"trigger_location\":\"12.9334288,77.6124633\"}]}","EVENT_G_TIME":"1718899171432","EVENT_L_TIME":"20:6:2024:21:29:31","N_I_E":1,"EVENT_ACTION":"MOE_GEOFENCE_HIT"}
+2024-06-20 21:29:31.434  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:31.434  4612-4971  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:31.434  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_AnalyticsHandler onEventTracked() : Non interactive event, return
+2024-06-20 21:29:31.434  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_RttHandleImpl showTrigger() : 
+2024-06-20 21:29:31.435  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler execute() : Job with tag RTT_SHOW_RTT added to queue
+2024-06-20 21:29:31.435  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:29:31.435  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:29:31.435  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_EventProcessor processEvent() : event: MOE_GEOFENCE_HIT
+2024-06-20 21:29:31.435  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl addEvent() Event 
+                                                                                                    : {
+                                                                                                        "EVENT_ATTRS": "{\"campaign_id\":\"666ac6eb657382ff6c757c96\",\"transition_type\":\"enter\",\"geo_id\":\"666acb93212dde957fdbcdbd\"}",
+                                                                                                        "EVENT_ATTRS_CUST": "{\"location\":[{\"trigger_location\":\"12.9334288,77.6124633\"}]}",
+                                                                                                        "EVENT_G_TIME": "1718899171432",
+                                                                                                        "EVENT_L_TIME": "20:6:2024:21:29:31",
+                                                                                                        "N_I_E": 1,
+                                                                                                        "EVENT_ACTION": "MOE_GEOFENCE_HIT"
+                                                                                                    }
+2024-06-20 21:29:31.435  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK RTT_2.6.0_EventProcessor processEvent() : Trigger Events: [MOE_APP_OPENED]
+2024-06-20 21:29:31.435  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag RTT_SHOW_RTT removed from the queue
+2024-06-20 21:29:31.436  4612-4971  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:31.437  4612-4971  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:29:31.438  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_EventHandler trackEvent() : Cache counter 3
+2024-06-20 21:29:31.438  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag TRACK_EVENT removed from the queue
+2024-06-20 21:29:31.440  4612-4971  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:29:31.440  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_GzipInterceptor /v1/geoFenceHit POST intercept(): Adding Gzip Headers to the Request
+2024-06-20 21:29:31.441  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFenceHit POST intercept(): Will try server call 
+2024-06-20 21:29:31.441  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFenceHit POST intercept(): Request url: https://sdk-02.moengage.com/v1/geoFenceHit
+2024-06-20 21:29:31.441  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFenceHit POST intercept(): Connection opened: 1718899171441
+2024-06-20 21:29:31.443  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFenceHit POST addHeaders() MOE-APPKEY : K9MR92RXN7AY1921E1COXDAK
+2024-06-20 21:29:31.444  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFenceHit POST addHeaders() Accept-Encoding : gzip
+2024-06-20 21:29:31.486  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFenceHit POST addBody(): Request Body: 
+                                                                                                     {
+                                                                                                        "query_params": {
+                                                                                                            "os": "ANDROID",
+                                                                                                            "app_id": "K9MR92RXN7AY1921E1COXDAK",
+                                                                                                            "sdk_ver": "121001",
+                                                                                                            "unique_id": "4830d43a-12ce-4f74-9542-d9b13e1bf7d2",
+                                                                                                            "device_ts": "1718899171434",
+                                                                                                            "device_tz_offset": "19800000",
+                                                                                                            "app_ver": "99991",
+                                                                                                            "app_version_name": "8.20.32",
+                                                                                                            "moe_gaid": "698a1216-d126-48eb-8265-91723c582a38",
+                                                                                                            "moe_push_ser": "FCM",
+                                                                                                            "geoIds": "666acb93212dde957fdbcdbd",
+                                                                                                            "isForeground": true,
+                                                                                                            "transitionType": "enter",
+                                                                                                            "push_id": "cugtnyUUTmKSFQoVH6MAt8:APA91bGj9sERkJiCvHWMQkXn4aecwe7VZOV-XeldAg7xKp7I3hyNlMC9zijVxFEumQnFSIEaJ-1VS17rBQTXFh-9lbjmILzXF6wk52M3C7sIzbFa3fNVg6MXxVqYf7M8yU3Fms6zNLU-"
+                                                                                                        }
+                                                                                                    }
+2024-06-20 21:29:31.902  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFenceHit POST getResponse(): Code: 200 body: 
+                                                                                                     {
+                                                                                                        "result": "OK"
+                                                                                                    }
+2024-06-20 21:29:31.902  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFenceHit POST getResponse(): Connection Response stream read complete: 1718899171902)}
+2024-06-20 21:29:31.903  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFenceHit POST intercept(): Connection disconnected: 1718899171903 milliseconds
+2024-06-20 21:29:31.903  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFenceHit POST intercept(): Connect to disconnect time: 462 milliseconds
+2024-06-20 21:29:31.903  4612-4971  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v1/geoFenceHit POST intercept(): Connection Stream read to disconnected time: 0 milliseconds
+2024-06-20 21:30:23.633  4612-4612  MoEngage                com.theentertainerme.entertainer     V  Core_DataSyncJob onStartJob() : 
+2024-06-20 21:30:23.633  4612-4612  MoEngage                com.theentertainerme.entertainer     V  Core_ReportsManager backgroundSync() : SyncType: SYNC_TYPE_BACKGROUND_SYNC_RETRY
+2024-06-20 21:30:23.633  4612-4709  MoEngage                com.theentertainerme.entertainer     V  Core_ReportsManager run() : Initiating background for all instances
+2024-06-20 21:30:23.633  4612-4709  MoEngage                com.theentertainerme.entertainer     V  Core_ReportsManager syncDataForAllInstances() : 
+2024-06-20 21:30:23.633  4612-4709  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler submit() : Job with tag CORE_BACKGROUND_DATA_SYNC added to queue
+2024-06-20 21:30:23.634  4612-4921  MoEngage                com.theentertainerme.entertainer     V  Core_ReportsManager syncDataForAllInstances() : Triggering sync for instance: K9MR92RXN7AY1921E1COXDAK
+2024-06-20 21:30:23.634  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag CORE_BACKGROUND_DATA_SYNC removed from the queue
+2024-06-20 21:30:23.634  4612-4709  MoEngage                com.theentertainerme.entertainer     V  Core_ReportsManager backgroundSync() : Did report add succeed for all instances? false
+2024-06-20 21:30:23.634  4612-4709  MoEngage                com.theentertainerme.entertainer     V  Core_ReportsManager scheduleRetry() : Will schedule retry if required.
+2024-06-20 21:30:23.634  4612-4709  MoEngage                com.theentertainerme.entertainer     V  Core_ReportsManager scheduleRetry() : Scheduling 2nd attempt retry
+2024-06-20 21:30:23.634  4612-4709  MoEngage                com.theentertainerme.entertainer     V  Core_ReportsManager scheduleRetry() : Scheduling retry. Interval: 189, attempt count: 2
+2024-06-20 21:30:23.634  4612-4709  MoEngage                com.theentertainerme.entertainer     V  Core_SyncHandler scheduleBackgroundSync() : Scheduling background sync, type: SyncMeta(id=90004, syncInterval=189, syncType='SYNC_TYPE_BACKGROUND_SYNC_RETRY', extras=PersistableBundle[{ATTEMPT_COUNT=2, CAN_AUTHENTICATE_REQUEST=true}])
+2024-06-20 21:30:23.634  4612-4709  MoEngage                com.theentertainerme.entertainer     V  Core_SyncHandler scheduleDataSendingJob() : Sync Meta SyncMeta(id=90004, syncInterval=189, syncType='SYNC_TYPE_BACKGROUND_SYNC_RETRY', extras=PersistableBundle[{ATTEMPT_COUNT=2, CAN_AUTHENTICATE_REQUEST=true}])
+2024-06-20 21:30:23.655  4612-4709  MoEngage                com.theentertainerme.entertainer     V  Core_SyncHandler scheduleDataSendingJob() : Schedule Result: 1
+2024-06-20 21:30:23.655  4612-4709  MoEngage                com.theentertainerme.entertainer     V  Core_DataSyncJob jobComplete() : Job completed. Releasing lock.
+2024-06-20 21:30:28.726  4612-4923  MoEngage                com.theentertainerme.entertainer     V  Core_ReportsManager schedulePeriodicFlushIfRequired() : Will sync data.
+2024-06-20 21:30:28.727  4612-4923  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler batchAndSyncDataAsync() : 
+2024-06-20 21:30:28.727  4612-4923  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler submit() : Job with tag BATCH_DATA added to queue
+2024-06-20 21:30:28.728  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler batchData() : Batching data
+2024-06-20 21:30:28.728  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_BatchHelper createAndSaveBatches() : 
+2024-06-20 21:30:28.728  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDataPoints() : 
+2024-06-20 21:30:28.733  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getAttributeByName() : Attribute name: USER_ATTRIBUTE_UNIQUE_ID
+2024-06-20 21:30:28.735  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:30:28.737  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:30:28.737  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_BatchHelper batchToJson() : Mapping batch to JSON
+2024-06-20 21:30:28.738  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_BatchHelper metaJson() : Building meta JSON.
+2024-06-20 21:30:28.739  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_BatchHelper appendSessionInfo() : Appending Session Info to meta.
+2024-06-20 21:30:28.740  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl writeBatch() : Batch-id: -1
+2024-06-20 21:30:28.743  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl deleteInteractionData() : Deleting datapoints
+2024-06-20 21:30:28.744  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl deleteDataPoint() : Deleting data point: DataPoint(id=1, time=1718899168736, details='{"EVENT_ATTRS":"{}","EVENT_G_TIME":"1718899168735","EVENT_L_TIME":"20:6:2024:21:29:28","EVENT_ACTION":"EVENT_ACTION_ACTIVITY_START"}')
+2024-06-20 21:30:28.745  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl deleteDataPoint() : Deleting data point: DataPoint(id=2, time=1718899169923, details='{"EVENT_ATTRS_CUST":"{\"timestamp\":[{\"Timestamp\":1718899169912}]}","EVENT_G_TIME":"1718899169923","EVENT_L_TIME":"20:6:2024:21:29:29","EVENT_ACTION":"Home Page View"}')
+2024-06-20 21:30:28.747  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl deleteDataPoint() : Deleting data point: DataPoint(id=3, time=1718899171432, details='{"EVENT_ATTRS":"{\"campaign_id\":\"666ac6eb657382ff6c757c96\",\"transition_type\":\"enter\",\"geo_id\":\"666acb93212dde957fdbcdbd\"}","EVENT_ATTRS_CUST":"{\"location\":[{\"trigger_location\":\"12.9334288,77.6124633\"}]}","EVENT_G_TIME":"1718899171432","EVENT_L_TIME":"20:6:2024:21:29:31","N_I_E":1,"EVENT_ACTION":"MOE_GEOFENCE_HIT"}')
+2024-06-20 21:30:28.748  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDataPoints() : 
+2024-06-20 21:30:28.749  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDataPoints() : Empty Cursor
+2024-06-20 21:30:28.749  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler syncInteractionData() : 
+2024-06-20 21:30:28.749  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler execute() : Job with tag SEND_INTERACTION_DATA added to queue
+2024-06-20 21:30:28.750  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag BATCH_DATA removed from the queue
+2024-06-20 21:30:28.750  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler syncData() : 
+2024-06-20 21:30:28.750  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getBatchedData() : 
+2024-06-20 21:30:28.753  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getPendingBatchCount() : 
+2024-06-20 21:30:28.757  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_BatchUpdater updateBatchIfRequired() : Batch already updated.
+2024-06-20 21:30:28.757  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler syncData() : Syncing batch, batch-id: 1
+2024-06-20 21:30:28.758  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler syncData() : Connection Cache Data : closeConnection = false, currentBatchIndex = 0batchedDataSize = 1, pendingBatchCount = 1, 
+2024-06-20 21:30:28.758  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils hasStorageEncryptionRequirementsMet(): check passed? true
+2024-06-20 21:30:28.758  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_Utils isUserRegistered(): User registration is not enabled, the check is not required.
+2024-06-20 21:30:28.759  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_CoreRepository syncReports() : Syncing reports: requestId: 1828F3F8BC1C7980908B4A25501AA8D366682F46
+2024-06-20 21:30:28.759  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:30:28.765  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:30:28.766  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:30:28.767  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:30:28.768  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: APP_UUID
+2024-06-20 21:30:28.771  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getCurrentUserId() : unique-id present in DB
+2024-06-20 21:30:28.774  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDeviceAttributeByName() : Attribute Name: mi_push_region
+2024-06-20 21:30:28.835  4612-4927  MoEngage                com.theentertainerme.entertainer     V  Core_DataUtils getDeviceId() : 35a615d60b7d2f19ec8375b4627923edfda04c72540961021b829f22decfff0d
+2024-06-20 21:30:28.839  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_GzipInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST intercept(): Adding Gzip Headers to the Request
+2024-06-20 21:30:28.839  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST intercept(): Will try server call 
+2024-06-20 21:30:28.839  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST intercept(): Request url: https://sdk-02.moengage.com/v2/sdk/report/K9MR92RXN7AY1921E1COXDAK
+2024-06-20 21:30:28.840  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST intercept(): Connection opened: 1718899228840
+2024-06-20 21:30:28.842  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST addHeaders() MOE-APPKEY : K9MR92RXN7AY1921E1COXDAK
+2024-06-20 21:30:28.842  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST addHeaders() MOE-REQUEST-ID : 1828F3F8BC1C7980908B4A25501AA8D366682F46
+2024-06-20 21:30:28.842  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST addHeaders() Accept-Encoding : gzip
+2024-06-20 21:30:28.847  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST addBody(): Request Body: 
+                                                                                                     {
+                                                                                                        "viewsCount": 3,
+                                                                                                        "viewsInfo": [
+                                                                                                            {
+                                                                                                                "EVENT_ATTRS": "{}",
+                                                                                                                "EVENT_G_TIME": "1718899168735",
+                                                                                                                "EVENT_L_TIME": "20:6:2024:21:29:28",
+                                                                                                                "EVENT_ACTION": "EVENT_ACTION_ACTIVITY_START"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "EVENT_ATTRS_CUST": "{\"timestamp\":[{\"Timestamp\":1718899169912}]}",
+                                                                                                                "EVENT_G_TIME": "1718899169923",
+                                                                                                                "EVENT_L_TIME": "20:6:2024:21:29:29",
+                                                                                                                "EVENT_ACTION": "Home Page View"
+                                                                                                            },
+                                                                                                            {
+                                                                                                                "EVENT_ATTRS": "{\"campaign_id\":\"666ac6eb657382ff6c757c96\",\"transition_type\":\"enter\",\"geo_id\":\"666acb93212dde957fdbcdbd\"}",
+                                                                                                                "EVENT_ATTRS_CUST": "{\"location\":[{\"trigger_location\":\"12.9334288,77.6124633\"}]}",
+                                                                                                                "EVENT_G_TIME": "1718899171432",
+                                                                                                                "EVENT_L_TIME": "20:6:2024:21:29:31",
+                                                                                                                "N_I_E": 1,
+                                                                                                                "EVENT_ACTION": "MOE_GEOFENCE_HIT"
+                                                                                                            }
+                                                                                                        ],
+                                                                                                        "meta": {
+                                                                                                            "bid": "1718899228732-60a1d0b6-484d-4501-9324-69762c75de1a",
+                                                                                                            "request_time": "2024-06-20T16:00:28.732Z",
+                                                                                                            "source": [],
+                                                                                                            "session": {
+                                                                                                                "session_id": "9cc786b5-9515-4e62-a1a4-4387087e951a",
+                                                                                                                "start_time": "2024-06-20T15:55:32.778Z"
+                                                                                                            },
+                                                                                                            "appState": "foreground"
+                                                                                                        },
+                                                                                                        "identifiers": {
+                                                                                                            "moe_user_id": "9153090"
+                                                                                                        },
+                                                                                                        "query_params": {
+                                                                                                            "os": "ANDROID",
+                                                                                                            "app_id": "K9MR92RXN7AY1921E1COXDAK",
+                                                                                                            "sdk_ver": "121001",
+                                                                                                            "unique_id": "4830d43a-12ce-4f74-9542-d9b13e1bf7d2",
+                                                                                                            "device_ts": "1718899228768",
+                                                                                                            "device_tz_offset": "19800000",
+                                                                                                            "app_ver": "99991",
+                                                                                                            "app_version_name": "8.20.32",
+                                                                                                            "moe_gaid": "698a1216-d126-48eb-8265-91723c582a38",
+                                                                                                            "moe_push_ser": "FCM",
+                                                                                                            "device_tz": "Asia\/Kolkata",
+                                                                                                            "push_id": "cugtnyUUTmKSFQoVH6MAt8:APA91bGj9sERkJiCvHWMQkXn4aecwe7VZOV-XeldAg7xKp7I3hyNlMC9zijVxFEumQnFSIEaJ-1VS17rBQTXFh-9lbjmILzXF6wk52M3C7sIzbFa3fNVg6MXxVqYf7M8yU3Fms6zNLU-",
+                                                                                                            "android_id": "18ea627898fa9a6f",
+                                                                                                            "os_ver": "30",
+                                                                                                            "model": "Redmi Note 8 Pro",
+                                                                                                            "networkType": "wifi",
+                                                                                                            "moe_drm_id": "35a615d60b7d2f19ec8375b4627923edfda04c72540961021b829f22decfff0d",
+                                                                                                            "manufacturer": "Xiaomi"
+                                                                                                        }
+                                                                                                    }
+2024-06-20 21:30:29.123  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST getInputStream(): Decoding Request Body With Gzip
+2024-06-20 21:30:29.125  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST getResponse(): Code: 200 body: 
+                                                                                                     {
+                                                                                                        "status": "success",
+                                                                                                        "message": "Your request has been accepted and will be processed soon."
+                                                                                                    }
+2024-06-20 21:30:29.125  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST getResponse(): Connection Response stream read complete: 1718899229125)}
+2024-06-20 21:30:29.125  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST intercept(): Connection disconnected: 1718899229125 milliseconds
+2024-06-20 21:30:29.125  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST intercept(): Connect to disconnect time: 285 milliseconds
+2024-06-20 21:30:29.125  4612-4927  MoEngage                com.theentertainerme.entertainer     D  K9MR92RXN7AY1921E1COXDAK Core_RestClient_CallServerInterceptor /v2/sdk/report/K9MR92RXN7AY1921E1COXDAK POST intercept(): Connection Stream read to disconnected time: 0 milliseconds
+2024-06-20 21:30:29.126  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl deleteBatch() : Deleting Batch, batch-id: 1
+2024-06-20 21:30:29.129  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getBatchedData() : 
+2024-06-20 21:30:29.130  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getPendingBatchCount() : 
+2024-06-20 21:30:29.132  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler syncData() : Nothing found to send.
+2024-06-20 21:30:29.132  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag SEND_INTERACTION_DATA removed from the queue
+2024-06-20 21:31:28.728  4612-4923  MoEngage                com.theentertainerme.entertainer     V  Core_ReportsManager schedulePeriodicFlushIfRequired() : Will sync data.
+2024-06-20 21:31:28.728  4612-4923  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler batchAndSyncDataAsync() : 
+2024-06-20 21:31:28.730  4612-4923  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler submit() : Job with tag BATCH_DATA added to queue
+2024-06-20 21:31:28.730  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler batchData() : Batching data
+2024-06-20 21:31:28.730  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_BatchHelper createAndSaveBatches() : 
+2024-06-20 21:31:28.730  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDataPoints() : 
+2024-06-20 21:31:28.737  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getDataPoints() : Empty Cursor
+2024-06-20 21:31:28.738  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler syncInteractionData() : 
+2024-06-20 21:31:28.738  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler execute() : Job with tag SEND_INTERACTION_DATA added to queue
+2024-06-20 21:31:28.739  4612-4921  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag BATCH_DATA removed from the queue
+2024-06-20 21:31:28.739  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler syncData() : 
+2024-06-20 21:31:28.739  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getBatchedData() : 
+2024-06-20 21:31:28.741  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_LocalRepositoryImpl getPendingBatchCount() : 
+2024-06-20 21:31:28.742  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_ReportsHandler syncData() : Nothing found to send.
+2024-06-20 21:31:28.742  4612-4927  MoEngage                com.theentertainerme.entertainer     V  K9MR92RXN7AY1921E1COXDAK Core_TaskHandler onJobComplete() : Job with tag SEND_INTERACTION_DATA removed from the queue
+2024-06-20 21:32:12.327  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker ------Start of bundle extras------
+2024-06-20 21:32:12.328  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ moe_app_id = K4ZBMF9ZO2HVICBT5QDOT0FE ]
+2024-06-20 21:32:12.328  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ gcm_notificationType = gcm_webNotification ]
+2024-06-20 21:32:12.328  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ moe_cid_attr = {"moe_campaign_channel": "Push", "moe_delivery_type": "One Time", "moe_campaign_id": "000000000000000098739415", "sent_epoch_time": 1718897674} ]
+2024-06-20 21:32:12.328  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ push_from = moengage ]
+2024-06-20 21:32:12.328  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ MOE_MSG_RECEIVED_TIME = 1718897841779 ]
+2024-06-20 21:32:12.328  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ gcm_alert = asdasdasd ]
+2024-06-20 21:32:12.328  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ gcm_title = asdasdasd ]
+2024-06-20 21:32:12.328  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ moe_push_service = fcm ]
+2024-06-20 21:32:12.328  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ gcm_webUrl = pbapp://policybazaar.com/health?type=1&utmMedium=push_crmsegment_promo_health_generic_14June24_v2 ]
+2024-06-20 21:32:12.328  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ gcm_campaign_id = 000000000000000098739415_L_0 ]
+2024-06-20 21:32:12.328  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ moe_channel_id = moe_default_channel ]
+2024-06-20 21:32:12.329  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker -------End of bundle extras-------
+2024-06-20 21:32:12.329  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker onHandleIntent() : Action: ACTION_NOTIFICATION_CLEARED
+2024-06-20 21:32:12.329  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker handleNotificationCleared() : 
+2024-06-20 21:32:12.330  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_PushMessageListener onNotificationCleared() : Callback for notification cleared.
+2024-06-20 21:32:12.331  2969-5517  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_Utils deleteCachedImages(): Will try to delete cached images for the campaign. isNotificationClicked=false payload=Bundle[{moe_app_id=K4ZBMF9ZO2HVICBT5QDOT0FE, gcm_notificationType=gcm_webNotification, moe_cid_attr={"moe_campaign_channel": "Push", "moe_delivery_type": "One Time", "moe_campaign_id": "000000000000000098739415", "sent_epoch_time": 1718897674}, push_from=moengage, MOE_MSG_RECEIVED_TIME=1718897841779, gcm_alert=asdasdasd, gcm_title=asdasdasd, moe_push_service=fcm, gcm_webUrl=pbapp://policybazaar.com/health?type=1&utmMedium=push_crmsegment_promo_health_generic_14June24_v2, action_type=swipe, gcm_campaign_id=000000000000000098739415_L_0, moe_channel_id=moe_default_channel}]
+2024-06-20 21:32:12.331  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE RichPush_4.7.2_RichPushTimerUtils cancelAlarmIfAny(): 
+2024-06-20 21:32:12.332  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE RichPush_4.7.2_RichPushTimerUtils cancelTimerAlarmIfAny(): notificationId:null, timerAlarmId: 0
+2024-06-20 21:32:12.333  2969-5517  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE null createBaseFolderIfRequired() : Creating base folder
+2024-06-20 21:32:12.334  2969-5516  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE RichPush_4.7.2_RichPushTimerUtils cancelProgressAlarmIfAny(): notificationId:0, progressAlarmId: 0
+2024-06-20 21:32:12.947  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker ------Start of bundle extras------
+2024-06-20 21:32:12.947  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ moe_app_id = K4ZBMF9ZO2HVICBT5QDOT0FE ]
+2024-06-20 21:32:12.947  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ gcm_notificationType = gcm_webNotification ]
+2024-06-20 21:32:12.947  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ moe_cid_attr = {"moe_campaign_channel": "Push", "moe_delivery_type": "One Time", "moe_campaign_id": "000000000000000049646376", "sent_epoch_time": 1718897731} ]
+2024-06-20 21:32:12.947  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ push_from = moengage ]
+2024-06-20 21:32:12.947  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ MOE_MSG_RECEIVED_TIME = 1718897841803 ]
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ gcm_alert = asdasdasd ]
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ gcm_title = asdasdasd ]
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ moe_push_service = fcm ]
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ gcm_webUrl = pbapp://policybazaar.com/health?type=1&utmMedium=push_crmsegment_promo_health_generic_14June24_v2 ]
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ gcm_campaign_id = 000000000000000049646376_L_0 ]
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker [ moe_channel_id = moe_default_channel ]
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker -------End of bundle extras-------
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker onHandleIntent() : Action: ACTION_NOTIFICATION_CLEARED
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_MoEPushWorker handleNotificationCleared() : 
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_PushMessageListener onNotificationCleared() : Callback for notification cleared.
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE RichPush_4.7.2_RichPushTimerUtils cancelAlarmIfAny(): 
+2024-06-20 21:32:12.948  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE RichPush_4.7.2_RichPushTimerUtils cancelTimerAlarmIfAny(): notificationId:null, timerAlarmId: 0
+2024-06-20 21:32:12.948  2969-5517  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE PushBase_7.0.2_Utils deleteCachedImages(): Will try to delete cached images for the campaign. isNotificationClicked=false payload=Bundle[{moe_app_id=K4ZBMF9ZO2HVICBT5QDOT0FE, gcm_notificationType=gcm_webNotification, moe_cid_attr={"moe_campaign_channel": "Push", "moe_delivery_type": "One Time", "moe_campaign_id": "000000000000000049646376", "sent_epoch_time": 1718897731}, push_from=moengage, MOE_MSG_RECEIVED_TIME=1718897841803, gcm_alert=asdasdasd, gcm_title=asdasdasd, moe_push_service=fcm, gcm_webUrl=pbapp://policybazaar.com/health?type=1&utmMedium=push_crmsegment_promo_health_generic_14June24_v2, action_type=swipe, gcm_campaign_id=000000000000000049646376_L_0, moe_channel_id=moe_default_channel}]
+2024-06-20 21:32:12.949  2969-5517  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE null createBaseFolderIfRequired() : Creating base folder
+2024-06-20 21:32:12.949  2969-5519  MoEngage                com.policybazaar                     V  K4ZBMF9ZO2HVICBT5QDOT0FE RichPush_4.7.2_RichPushTimerUtils cancelProgressAlarmIfAny(): notificationId:0, progressAlarmId: 0
